@@ -1,8 +1,9 @@
 .navtab {
   display: flex;
   align-items: center;
-  padding: 0 15px;
-  box-sizing: border-box;
+}
+.navtab a:last-of-type {
+  padding: 0;
 }
 .navtab__link {
   margin-right: 28px;
@@ -79,7 +80,7 @@
 .navtab__navlink_active:hover::before {
   transform: scaleX(1);
   transform-origin: bottom left;
-  color: #fff !important;
+  color: #fff;
 }
 .navtab__link-img {
   width: 36px;

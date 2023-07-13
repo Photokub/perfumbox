@@ -1,12 +1,15 @@
 @link-color: #a6a6a6;
+@navlink-hover-color: #fff;
 @link-hover-color: #656565;
 @link-active-color: #000;
 
 .navtab {
   display: flex;
   align-items: center;
-  padding: 0 15px;
-  box-sizing: border-box;
+
+  & a:last-of-type {
+    padding:0;
+  }
 }
 
 .navtab__link {
@@ -30,8 +33,8 @@
   position: relative;
   margin-right: 28px;
 
-  &:hover{
-    color: #fff;
+  &:hover {
+    color: @navlink-hover-color;
   }
 
   &::before {
@@ -85,14 +88,14 @@
     border-radius: 5px;
   }
 
-  &:hover{
-    color: #fff;
+  &:hover {
+    color: @navlink-hover-color;
   }
 
   &:hover::before {
     transform: scaleX(1);
     transform-origin: bottom left;
-    color: #fff !important;
+    color: @navlink-hover-color;
   }
 }
 
