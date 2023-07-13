@@ -1,5 +1,4 @@
 .header {
-
   border: 1px dashed red;
   display: flex;
   align-items: center;
@@ -7,10 +6,5 @@
   height: 87px;
   padding: 0 122px;
   justify-content: space-around;
-
-  .header__link {
-    .header__logo {
-
-    }
-  }
 }
+/*# sourceMappingURL=Header.css.map */
