@@ -21,6 +21,10 @@
   line-height: normal;
   text-decoration: none;
   position: relative;
+  margin-right: 28px;
+}
+.navtab__navlink:hover {
+  color: #fff;
 }
 .navtab__navlink::before {
   content: " ";
@@ -33,7 +37,7 @@
   bottom: 0;
   left: 0;
   inset: 0 0 0 0;
-  background: #FC6F9BFF;
+  background: #A60030FF;
   z-index: -1;
   transition: transform 0.3s ease;
   border-radius: 5px;
@@ -51,6 +55,7 @@
   line-height: normal;
   text-decoration: none;
   position: relative;
+  margin-right: 28px;
 }
 .navtab__navlink_active::before {
   content: " ";
@@ -63,10 +68,13 @@
   bottom: 0;
   left: 0;
   inset: 0 0 0 0;
-  background: #FC6F9BFF;
+  background: #A60030FF;
   z-index: -1;
   transition: transform 0.3s ease;
   border-radius: 5px;
+}
+.navtab__navlink_active:hover {
+  color: #fff;
 }
 .navtab__navlink_active:hover::before {
   transform: scaleX(1);

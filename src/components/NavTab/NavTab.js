@@ -8,13 +8,13 @@ export function NavTab() {
     return (
         <nav className='navtab'>
             <NavLink
-                className={({isActive}) => `${isActive ? "navtab__navlink_active" : "navtab__navlink"} navtab__link`}
+                className={({isActive}) => `${isActive ? "navtab__navlink_active" : "navtab__navlink"} `}
                 to='/'>О нас</NavLink>
             <NavLink
-                className={({isActive}) => `${isActive ? "navtab__navlink_active" : "navtab__navlink"} navtab__link`}
+                className={({isActive}) => `${isActive ? "navtab__navlink_active" : "navtab__navlink"} `}
                 to='/gallery'>Ароматы</NavLink>
             <NavLink
-                className={({isActive}) => `${isActive ? "navtab__navlink_active" : "navtab__navlink"} navtab__link`}
+                className={({isActive}) => `${isActive ? "navtab__navlink_active" : "navtab__navlink"} `}
                 to='/feedback'>Обратная связь</NavLink>
             <Link className='navtab__link' to='#'>
                 <FontAwesomeIcon className='navtab__link-img' icon={faVk} />
