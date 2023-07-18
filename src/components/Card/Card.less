@@ -1,12 +1,25 @@
 .card{
-  height: 224px;
-  width: 224px;
+  height: 212px;
+  width: 212px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #DBD9D9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 7px #DBD9D9 solid;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
 .card__image-button {
-  height: inherit;
-  width: inherit;
+  height: 212px;
+  width: 212px;
+  object-fit: cover;
   border-radius: 50%;
-  outline: 7px #DBD9D9 solid;
-  outline-offset: -6px;
+  transition: transform 400ms ease-out;
+  box-sizing: content-box;
+
+  &:hover{
+    transform: scale(1.15);
+  }
 }
