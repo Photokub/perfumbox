@@ -1,5 +1,4 @@
 .header {
-  border: 1px dashed red;
   display: flex;
   align-items: center;
   width: inherit;

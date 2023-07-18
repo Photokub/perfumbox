@@ -1,0 +1,23 @@
+.footer {
+  width: inherit;
+  height: 154px;
+  border-top: 1px solid #6D6D6D;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 124px;
+  color: #6D6D6D;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__text {
+  margin: 0;
+  padding-right: 5px;
+}
+.footer__link {
+  color: #6D6D6D;
+}
+/*# sourceMappingURL=Footer.css.map */

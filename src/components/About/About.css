@@ -6,7 +6,6 @@
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
 }
-
 .about__title {
   padding-bottom: 38px;
   margin: 0;
@@ -18,7 +17,6 @@
   line-height: normal;
   grid-column: 1/3;
 }
-
 .about__paragraph {
   margin: 0 46px 0 0;
   color: #6D6D6D;
@@ -29,8 +27,7 @@
   line-height: normal;
   align-self: center;
 }
-
-.about__img{
-  //width: 100%;
+.about__img {
   height: 544px;
 }
+/*# sourceMappingURL=About.css.map */
