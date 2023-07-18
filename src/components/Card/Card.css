@@ -1,8 +1,7 @@
-.card{
+.card {
   height: 224px;
   width: 224px;
 }
-
 .card__image-button {
   height: inherit;
   width: inherit;
@@ -10,3 +9,4 @@
   outline: 7px #DBD9D9 solid;
   outline-offset: -6px;
 }
+/*# sourceMappingURL=Card.css.map */

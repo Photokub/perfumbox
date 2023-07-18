@@ -1,12 +1,11 @@
-.catalog{
+.catalog {
   max-width: 954px;
   margin: 0 auto;
   padding: 67px 243px 0 243px;
   display: flex;
   flex-direction: column;
 }
-
-.catalog__title{
+.catalog__title {
   color: #000;
   font-family: Inter;
   font-size: 40px;
@@ -15,8 +14,7 @@
   line-height: normal;
   margin: 0 0 19px 0;
 }
-
-.catalog__subtitle{
+.catalog__subtitle {
   color: #6D6D6D;
   font-family: Inter;
   font-size: 16px;
@@ -24,5 +22,5 @@
   font-weight: 400;
   line-height: normal;
   margin: 0 0 20px 0;
-
 }
+/*# sourceMappingURL=Catalog.css.map */

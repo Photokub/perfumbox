@@ -12,7 +12,7 @@ export function NavTab() {
                 to='/'>О нас</NavLink>
             <NavLink
                 className={({isActive}) => `${isActive ? "navtab__navlink_active" : "navtab__navlink"} `}
-                to='/gallery'>Ароматы</NavLink>
+                to='/catalog'>Ароматы</NavLink>
             <NavLink
                 className={({isActive}) => `${isActive ? "navtab__navlink_active" : "navtab__navlink"} `}
                 to='/feedback'>Обратная связь</NavLink>
